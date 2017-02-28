@@ -1,0 +1,11 @@
+@font-face {
+font-family: 'Glyphicon';
+    src: url('glyphicon.eot');
+    src: url('glyphicon.eot?#iefix') format('embedded-opentype'),
+         url('glyphicon.ttf') format('truetype'),
+         url('glyphicon.woff') format('woff'),
+         url('glyphicon.woff2') format('woff2'),
+         url('glyphicon.svg#Lato') format('svg');
+    font-weight:normal;
+    font-style:normal;
+}
