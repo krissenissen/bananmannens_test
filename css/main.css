@@ -1,0 +1,30 @@
+form{
+    margin-top: 50px; 
+    width: 400px;
+}
+form ul{
+    list-style-type: none;
+}
+form ul li{
+    margin: 15px 0;
+}
+form label{
+    display: block;
+    font-size: 2em;
+}
+form input{
+    font-size: 2em;
+    padding: 5px;
+    border: #ccc 2px solid;
+    width: 100%
+}
+#medelande{
+    width: 100%;
+    font-size: 1.5em;
+    padding: 5px;
+    border: #ccc 3px solid;
+}
+#submit{
+    width: 100%;
+    margin-left: auto;
+}
