@@ -1,44 +1,3 @@
-@import url('../fonts/glyph.css');
-@media screen and (max-width:1024){
-	header{
-		height:60px;
-	}
-	/*menu button*/
-	#menuButton{
-		display:block;
-		float:right;
-		height:60px;
-		width:60px;
-		border-left:solid 1px rgba(0,0,0,.2);
-		text-transform:uppercase;
-		text-align:center;
-		text-decoration:none;
-		color:#000;
-		cursor:pointer;
-	}
-	#menuButton.expand{
-		border-bottom:solid 1px #fff;
-	}
-	#menuButton.expand~ul{
-		display:block;
-	}
-	#menuButton:before{
-		font:25px Glyphicon;
-		content:"\e236";
-		display:block;
-		margin-top:5px;
-	}
-	#menuButton:after{
-		display:block;
-		content:"Meny";
-	}
-	/*close button*/
-	#menuButton.expand:before{
-		content:"\e014";
-	}
-	#menuButton.expand:after{
-		content:"St\00C4ng";
-	}
 #main {
     
     width: 80%;
@@ -108,3 +67,44 @@ form input{
     width: 100%;
     margin-left: auto;
   }
+@media screen and (max-width:1024){
+	header{
+		height:60px;
+	}
+	/*menu button*/
+	#menuButton{
+		display:block;
+		float:right;
+		height:60px;
+		width:60px;
+		border-left:solid 1px rgba(0,0,0,.2);
+		text-transform:uppercase;
+		text-align:center;
+		text-decoration:none;
+		color:#000;
+		cursor:pointer;
+	}
+	#menuButton.expand{
+		border-bottom:solid 1px #fff;
+	}
+	#menuButton.expand~ul{
+		display:block;
+	}
+	#menuButton:before{
+		font:25px Glyphicon;
+		content:"\e236";
+		display:block;
+		margin-top:5px;
+	}
+	#menuButton:after{
+		display:block;
+		content:"Meny";
+	}
+	/*close button*/
+	#menuButton.expand:before{
+		content:"\e014";
+	}
+	#menuButton.expand:after{
+		content:"St\00C4ng";
+	}
+}

@@ -1,13 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="sv">
 <head>
-    <meta charset="UTF-8">
-    <title>Document</title>
-    <link type="text/css" rel="stylesheet" href="css/main.css">
+    <title>Kontakt - BananMannen</title>
+    <meta http-equiv="content-type" content="text/html;charset=utf-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-v3.3.7.min.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <script src="js/jquery-1.12.4.min.js" async></script>
+    <script src="js/main.js" defer></script>
 </head>
 <body>
-   
-   
+<header>
+  <nav>
+  <div class="headerLogo"><a href="#">BananMannen</a></div>
+  <span id="menuButton"></span>
+    <ul class="headerMenu">
+      <li>
+        <a href="">Start</a>
+      </li><li>
+        <a href="about.html">Start</a>
+      </li><li>
+        <a href="news.html">Start</a>
+      </li><li>
+        <a href="contact.html">Start</a>
+      </li>
+    </ul>
+  </nav>
+</header>
        <form action="contact.html" method="post">
        <ul>
            <li>
@@ -27,10 +46,10 @@
                </select>
            </li>
            <li>
-           <label for="medelande">Fri text</label>
-           <textarea id="medelande" name="medelande" cols="30" rows="9"></textarea>
+             <label for="medelande">Fri text</label>
+             <textarea id="medelande" name="medelande" cols="30" rows="9"></textarea>
            </li>
-           <li><input  id="submit" type="submit"> </li>
+           <li><input id="submit" type="submit"></li>
        </ul>
     </form>
     
