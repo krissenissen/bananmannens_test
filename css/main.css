@@ -9,5 +9,29 @@
 #title {
     
     text-align: center;
+    font-size: 50px;
+    margin-bottom: 5%;
+    
+}
+
+#section01 {
+    
+    width: 49%;
+    float: left;
+    margin-right: 2%;
+    
+    
+}
+
+#section02 {
+    
+    width: 49%;
+    float: left;
+    
+}
+
+#section03 {
+    
+    width: 100%;
     
 }
