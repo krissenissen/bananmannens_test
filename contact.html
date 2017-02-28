@@ -3,8 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
+    <link type="text/css" rel="stylesheet" href="css/main.css">
 </head>
 <body>
+   
+   
+       <form action="contact.html" method="post">
+       <ul>
+           <li>
+               <label for="namn">Namn:</label>
+               <input type="text" name="namn" id="namn"/>
+           </li>
+           <li>
+               <label for="mail">Epost:</label>
+               <input type="text" name="mail" id="mail"/>
+           </li>
+           <li>
+               <label for="amne">Ämne:</label>
+               <select id="amne" name="amne">
+                   <option value="byxor">Byxor</option>
+                   <option value="jackor">Jackor</option>
+                   <option value="underklader">Underkläder</option>
+               </select>
+           </li>
+           <li>
+           <label for="medelande">Fri text</label>
+           <textarea id="medelande" name="medelande" cols="30" rows="9"></textarea>
+           </li>
+           <li><input  id="submit" type="submit"> </li>
+       </ul>
+    </form>
     
 </body>
 </html>
