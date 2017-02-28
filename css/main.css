@@ -1,17 +1,48 @@
-@import url('../fonts/glyph.css');
-#main{
-    width:80%;
-    margin:0 10%;
+#main {
+    
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    
 }
-#title{
+
+#title {
+    
     text-align: center;
+    font-size: 50px;
+    margin-bottom: 5%;
+    
 }
+
+#section01 {
+    
+    width: 49%;
+    float: left;
+    margin-right: 2%;
+    
+    
+}
+
+#section02 {
+    
+    width: 49%;
+    float: left;
+    
+}
+
+#section03 {
+    
+    width: 100%;
+    
+}
+  
+  
 form{
     margin-top: 50px; 
     width: 400px;
 }
 form ul{
-    list-style: none;
+    list-style-type: none;
 }
 form ul li{
     margin: 15px 0;
@@ -24,7 +55,7 @@ form input{
     font-size: 2em;
     padding: 5px;
     border: #ccc 2px solid;
-    width: 100%;
+    width: 100%
 }
 #medelande{
     width: 100%;
@@ -35,7 +66,7 @@ form input{
 #submit{
     width: 100%;
     margin-left: auto;
-}
+  }
 @media screen and (max-width:1024){
 	header{
 		height:60px;
